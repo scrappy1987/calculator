@@ -1,4 +1,4 @@
-package com.qa.calculator;
+package com.qa.calculator.operations;
 
 public class Multiply {
 

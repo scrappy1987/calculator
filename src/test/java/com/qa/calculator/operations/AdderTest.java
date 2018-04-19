@@ -1,7 +1,9 @@
-package com.qa.calculator;
+package com.qa.calculator.operations;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.qa.calculator.operations.Adder;
 
 public class AdderTest {
 
