@@ -3,17 +3,17 @@ package com.qa.calculator.operations;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.qa.calculator.operations.Adder;
+import com.qa.calculator.operations.Add;
 
 public class AdderTest {
 
-	private Adder adder;
+	private MathsOperation adder;
 
 	@Test
 	public void test() {
-		adder = new Adder();
+		adder = new Add();
 		int expectedValue = 4;
-		int actualValue = adder.add(2, 2);
+		int actualValue = adder.calculate(2, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 

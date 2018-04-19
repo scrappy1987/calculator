@@ -11,7 +11,7 @@ public class MultiplyTest {
 
 	@Test
 	public void test() {
-		Assert.assertEquals(16, multiply.multiply(4, 4));
+		Assert.assertEquals(16, multiply.calculate(4, 4));
 	}
 
 }

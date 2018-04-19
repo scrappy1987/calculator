@@ -1,8 +1,8 @@
 package com.qa.calculator.operations;
 
-public class Divide {
+public class Divide implements MathsOperation {
 
-	public int divide(int num1, int num2) {
+	public int calculate(int num1, int num2) {
 		return num1 / num2;
 	}
 }
