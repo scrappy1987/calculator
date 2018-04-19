@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SubtractorTest {
-
 	private Subtractor subtract = new Subtractor();
 
 	@Test
